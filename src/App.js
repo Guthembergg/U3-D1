@@ -1,5 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import "./Components/MyButton";
+import MyButton from "./Components/MyButton";
+import ImageComponent from "./Components/ImageComponent";
 
 function App() {
   return (
@@ -18,6 +21,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <MyButton text="Click Me" />
+      <ImageComponent
+        src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Hello%21_Logo.jpg"
+        alt="hello"
+      />
     </div>
   );
 }
